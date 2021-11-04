@@ -4,7 +4,7 @@ interface ProjectProps {}
 
 const Project: FunctionComponent<ProjectProps> = () => {
   return (
-    <div className="flex flex-wrap items-stretch justify-between max-w-4xl mt-3 sm:w-full odd:after:w-72">
+    <div className="flex flex-wrap items-stretch justify-between max-w-4xl gap-3 mt-6 sm:w-full odd:after:w-72">
       <div className="w-64 p-6 text-left transition duration-300 ease-in-out transform border-4 border-transparent border-dashed hover:border-green-400 rounded-xl group hover:translate-y-1 hover:scale-105">
         <h3 className="mb-2 text-2xl font-bold group-hover:text-green-500">
           <a
