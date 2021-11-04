@@ -1,4 +1,4 @@
-FROM node:17
+FROM node:16
 
 # Open environment port
 ENV PORT 3000
