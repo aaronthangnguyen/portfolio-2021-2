@@ -4,6 +4,7 @@ import Name from "../components/hero/Name";
 import Title from "../components/hero/Title";
 import Education from "../components/education/Education";
 import Project from "../components/project/Project";
+import Footer from "../components/shared/Footer";
 
 const IndexPage: NextPage = () => {
   return (
@@ -20,16 +21,7 @@ const IndexPage: NextPage = () => {
         <Project />
       </main>
 
-      <footer className="flex items-center justify-center w-full h-24">
-        <a
-          className="flex items-center justify-center"
-          href="https://www.linkedin.com/in/aaronthangnguyen/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Aaron Nguyen © 2021
-        </a>
-      </footer>
+      <Footer />
     </div>
   );
 };
