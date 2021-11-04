@@ -1,11 +1,12 @@
 import Head from "next/head";
 
-export default function Home() {
+export default function IndexPage() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
       <Head>
         <title>Aaron Nguyen</title>
         <link rel="icon" href="/favicon.ico" />
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=IBM+Plex+Sans:wght@400;700&family=IBM+Plex+Serif:wght@400;700&display=optional" rel="stylesheet" /> 
       </Head>
       <main></main>
 
@@ -16,7 +17,7 @@ export default function Home() {
             className="p-2 text-blue-600 transition duration-300 ease-out hover:bg-red-600 hover:text-white"
             href="https://www.linkedin.com/in/aaronthangnguyen/"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             Nguyen 🌋
           </a>
@@ -29,7 +30,13 @@ export default function Home() {
         <div className="flex flex-wrap items-stretch max-w-4xl mt-6 justify-evenly sm:w-full odd:after:w-96">
           <div className="p-6 text-left transition duration-300 ease-in-out transform w-96 rounded-xl group hover:bg-yellow-50 hover:shadow-lg hover:translate-y-1 hover:scale-105">
             <h3 className="mb-2 text-2xl font-bold group-hover:text-yellow-500">
-              University of Central Florida
+              <a
+                href="https://www.ucf.edu/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                University of Central Florida
+              </a>
             </h3>
             <ul className="text-lg text-gray-400 group-hover:text-yellow-400">
               <li>Bachelor of Computer Science</li>
@@ -42,7 +49,13 @@ export default function Home() {
 
           <div className="p-6 text-left transition duration-300 ease-in-out transform w-96 rounded-xl group hover:bg-red-50 hover:shadow-lg hover:translate-y-1 hover:scale-105">
             <h3 className="mb-2 text-2xl font-bold group-hover:text-red-500">
-              Valencia College
+              <a
+                href="https://valenciacollege.edu/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Valencia College
+              </a>
             </h3>
             <ul className="text-lg text-gray-400 group-hover:text-red-400">
               <li>Associate of Arts</li>
@@ -55,7 +68,13 @@ export default function Home() {
 
           <div className="p-6 mt-3 text-left transition duration-300 ease-in-out transform rounded-xl w-96 group hover:bg-blue-50 hover:shadow-lg hover:translate-y-1 hover:scale-105">
             <h3 className="mb-2 text-2xl font-bold group-hover:text-blue-500">
-              Ton Duc Thang University
+              <a
+                href="https://www.tdtu.edu.vn/en/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Ton Duc Thang University
+              </a>
             </h3>
             <ul className="text-lg text-gray-400 group-hover:text-blue-400">
               <li>Bachelor of Laws</li>
