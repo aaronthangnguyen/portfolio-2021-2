@@ -3,6 +3,7 @@ import Head from "next/head";
 import Name from "../components/hero/Name";
 import Title from "../components/hero/Title";
 import Education from "../components/education/Education";
+import Project from "../components/project/Project";
 
 const IndexPage: NextPage = () => {
   return (
@@ -14,8 +15,9 @@ const IndexPage: NextPage = () => {
 
       <main className="flex flex-col items-center justify-center flex-1 w-full px-20 text-center">
         <Name />
-        <Title>Full-stack Software Engineer</Title>
+        <Title />
         <Education />
+        <Project />
       </main>
 
       <footer className="flex items-center justify-center w-full h-24">
