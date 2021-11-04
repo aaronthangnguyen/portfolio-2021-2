@@ -4,7 +4,7 @@ interface EducationProps {}
 
 const Education: FunctionComponent<EducationProps> = () => {
   return (
-    <div className="flex flex-wrap items-stretch justify-center max-w-4xl mt-6 gap-9 sm:w-full odd:after:w-96">
+    <div className="flex flex-wrap items-stretch justify-between max-w-4xl mt-6 sm:w-full odd:after:w-96">
       <div className="p-6 text-left transition duration-300 ease-in-out transform w-96 rounded-xl group hover:bg-yellow-50 hover:shadow-lg hover:translate-y-1 hover:scale-105">
         <h3 className="mb-2 text-2xl font-bold group-hover:text-yellow-500">
           <a
