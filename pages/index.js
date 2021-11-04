@@ -33,7 +33,7 @@ export default function Home() {
             <ul className="text-lg text-gray-400 group-hover:text-yellow-400">
               <li>Bachelor of Computer Science</li>
               <li>
-                GPA: <span className="font-bold">4.0</span>
+                GPA: <span className="font-bold">N/A</span>
               </li>
               <li>2022 - 2024 | expected</li>
             </ul>
