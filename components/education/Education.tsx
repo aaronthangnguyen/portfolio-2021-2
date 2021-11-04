@@ -43,7 +43,7 @@ const Education: FunctionComponent<EducationProps> = () => {
         </ul>
       </div>
 
-      <div className="p-6 mt-3 text-left transition duration-300 ease-in-out transform rounded-xl w-96 group hover:bg-blue-50 hover:shadow-lg hover:translate-y-1 hover:scale-105">
+      <div className="p-6 text-left transition duration-300 ease-in-out transform rounded-xl w-96 group hover:bg-blue-50 hover:shadow-lg hover:translate-y-1 hover:scale-105">
         <h3 className="mb-2 text-2xl font-bold group-hover:text-blue-500">
           <a
             href="https://www.tdtu.edu.vn/en/"
