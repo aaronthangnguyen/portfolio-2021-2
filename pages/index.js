@@ -16,6 +16,7 @@ export default function Home() {
             className="p-2 text-blue-600 transition duration-300 ease-out hover:bg-red-600 hover:text-white"
             href="https://www.linkedin.com/in/aaronthangnguyen/"
             target="_blank"
+            rel="noreferrer"
           >
             Nguyen 🌋
           </a>
