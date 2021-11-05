@@ -7,7 +7,7 @@ const ValenciaTechClub: FunctionComponent<ValenciaTechClubProps> = () => {
     <div className="p-6 text-left transition duration-300 ease-in-out transform border-4 border-transparent border-dashed w-72 hover:border-blue-400 rounded-xl group hover:translate-y-1 hover:scale-105">
       <h3 className="mb-2 text-2xl font-bold group-hover:text-blue-500">
         <a
-          href="https://github.com/chisafukutome/valencia-tech-club-website"
+          href="https://github.com/chisafukutome/valencia-tech-club-website/"
           target="_blank"
           rel="noopener noreferrer"
         >
