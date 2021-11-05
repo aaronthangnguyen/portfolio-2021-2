@@ -7,7 +7,7 @@ const CheckInApp: FunctionComponent<CheckInAppProps> = () => {
     <div className="w-64 p-6 text-left transition duration-300 ease-in-out transform border-4 border-transparent border-dashed hover:border-purple-400 rounded-xl group hover:translate-y-1 hover:scale-105">
       <h3 className="mb-2 text-2xl font-bold group-hover:text-purple-500">
         <a
-          href="https://github.com/aaronthangnguyen/check-in-app"
+          href="https://github.com/aaronthangnguyen/check-in-app/"
           target="_blank"
           rel="noopener noreferrer"
         >

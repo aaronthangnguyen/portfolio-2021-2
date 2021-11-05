@@ -7,7 +7,7 @@ const Portfolio: FunctionComponent<PortfolioProps> = () => {
     <div className="w-64 p-6 text-left transition duration-300 ease-in-out transform border-4 border-transparent border-dashed hover:border-green-400 rounded-xl group hover:translate-y-1 hover:scale-105">
       <h3 className="mb-2 text-2xl font-bold group-hover:text-green-500">
         <a
-          href="https://www.ucf.edu/"
+          href="https://github.com/aaronthangnguyen/portfolio/"
           target="_blank"
           rel="noopener noreferrer"
         >

@@ -7,7 +7,7 @@ const SourceCodeClub: FunctionComponent<SourceCodeClubProps> = () => {
     <div className="p-6 text-left transition duration-300 ease-in-out transform border-4 border-transparent border-dashed w-72 hover:border-pink-400 rounded-xl group hover:translate-y-1 hover:scale-105">
       <h3 className="mb-2 text-2xl font-bold group-hover:text-pink-500">
         <a
-          href="https://github.com/aaronthangnguyen/source-code-club-website"
+          href="https://github.com/aaronthangnguyen/source-code-club-website/"
           target="_blank"
           rel="noopener noreferrer"
         >
