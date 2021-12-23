@@ -4,7 +4,7 @@ interface Props {}
 
 const Name: FunctionComponent<Props> = () => {
   return (
-    <h1 className="text-6xl font-bold">
+    <h1 className="text-6xl font-bold mt-8">
       Aaron&nbsp;
       <a
         className="p-2 text-blue-600 transition duration-300 ease-out rounded-xl hover:bg-red-600 hover:text-white"
